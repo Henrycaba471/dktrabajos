@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lobster&family=Mochiy+Pop+P+One&family=Neonderthaw&family=Oswald:wght@252&family=Redressed&family=Roboto+Mono&family=Rubik+Beastly&family=Sedgwick+Ave&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 50px;
+    color: #ffffff;
+    background-color: rgba(167, 63, 150, 0.336);
+    text-align: right;
+}
+.header a{
+    margin-right: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header a:hover{
+    color: #fdf901;
+}
+main {
+    display: flex;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(167, 63, 150, 0.555);
+    border-radius: 50%;
+    height: 480px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid rgba(90, 90, 88, 0.178);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.whatsapp,
+.insta,
+.facebook,
+.email{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+h1 {
+    font-family: Jokerman;
+    font-size: 5em;
+    color: rgb(239, 240, 241);
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    color: rgb(221, 224, 230);
+}
+
+span {
+    color: rgb(236, 238, 240);
+    padding: 3px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+span:hover {
+    color: rgb(147, 148, 150);
+}
+
+.footer {
+    height: 30px;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: rgba(167, 63, 150, 0.281);
+    text-align: right;
+    line-height: 30px;
+    padding-right: 50px;
+}
